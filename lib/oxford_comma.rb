@@ -3,6 +3,13 @@ def oxford_comma(array)
     return array[0]
   elsif (array.size == 2)
     "#{array[0]} and #{array[1]}"
-  end
+  elsif (array.size == 3)
+    "#{array[0]}, #{array[1]}, and #{array[2]}"
+  else
+    message = "";
+    counter = 0
+    until counter == (array.size - 2)
+      message += "#{array[counter]}"
+    end
 
 end
