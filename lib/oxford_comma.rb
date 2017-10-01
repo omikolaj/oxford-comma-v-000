@@ -10,7 +10,7 @@ def oxford_comma(array)
     counter = 0
     until counter == (array.size - 2)
       message += "#{array[counter]},"
-      counter+=1
+      counter += 1
     end
     "#{message} and #{array.size-1}"
   end
