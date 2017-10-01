@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     message = "";
     counter = 0
-    until counter == (array.size - 2)
+    until counter == (array.size - 1)
       message += "#{array[counter]}, "
       counter += 1
     end
