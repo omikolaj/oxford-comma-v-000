@@ -12,6 +12,6 @@ def oxford_comma(array)
       message += "#{array[counter]}, "
       counter += 1
     end
-    "#{message} and #{array[array.size-1]}"
+    "#{message}and #{array[array.size-1]}"
   end
 end
